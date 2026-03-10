@@ -9,6 +9,7 @@
 
 ```js
 // Object Literals
+// An object literal is the simplest and most common way to create an object.
 const car = {
   brand: "Toyota",
   start: function () {
@@ -17,6 +18,18 @@ const car = {
 };
 
 // Object Constructor
+// An object constructor is a function used to create multiple objects with the same structure.
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.greet = function() {
+    console.log("Hello!");
+  };
+}
+
+const person1 = new Person("Alex", 20);
+const person2 = new Person("Sam", 25);
+
 console.log(car.brand);
 console.log(car.start());
 console.log(car['brand']);
