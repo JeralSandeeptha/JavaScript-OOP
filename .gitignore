@@ -3,3 +3,9 @@ src/encapsulation/build
 
 src/inheritance/node_modules
 src/inheritance/build
+
+src/abstraction/node_modules
+src/abstraction/build
+
+src/polymorphism/node_modules
+src/polymorphism/build
