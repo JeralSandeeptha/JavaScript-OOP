@@ -13,3 +13,4 @@
 - [Inheritance](./docs/inheritance.md)
 - [Polymorphism](./docs/polymorphism.md)
 - [Abstraction](./docs/abstraction.md)
+- [OOP Relationship Types](./oop_relationships/relationships.md)
